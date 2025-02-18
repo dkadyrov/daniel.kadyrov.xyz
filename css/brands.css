@@ -34,8 +34,35 @@
 /* Default */
 .button.button-default {
 	--button-text:#ffffff;
-	--button-background:#2457F5;
+	/* --button-text:black; */
+	/* --button-background:#2457F5; */
+	--button-background:black;
 	--button-border:1px solid #ffffff;
+	/* --button-border:1px solid black; */
+}
+
+.button-vcard {
+	--button-text:white;
+	--button-background:green;
+	--button-border:1px solid white;
+}
+
+.button-email {
+	--button-text:white;
+	--button-background:blue;
+	--button-border:1px solid white;
+}
+
+.button-cv {
+	--button-text:white;
+	--button-background:gray;
+	--button-border:1px solid white;
+}
+
+.button-calendar {
+	--button-text:white;
+	--button-background:red;
+	--button-border:1px solid white;
 }
 
 /* Amazon */
@@ -603,4 +630,11 @@
 	--button-text:#ffffff;
 	--button-background:#0B5CFF;
   --button-border:1px solid #FFFFFF;
+}
+
+/* Play me on Chess.com */
+.button-play-me-on-chess-com {
+    --button-text: #ffffff;
+    --button-background: #000000;
+    --button-border: 1px solid #FFFFFF;
 }
